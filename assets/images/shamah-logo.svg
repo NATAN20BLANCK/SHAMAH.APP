@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shamahGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#EC4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Shamah Logo com gradiente roxo-rosa-azul -->
+  <g transform="translate(152, 152)">
+    <!-- S curvo -->
+    <path d="M40 40 C20 40, 0 60, 0 80 C0 100, 20 120, 40 120 L60 120 C80 120, 100 140, 100 160 C100 180, 80 200, 60 200 L40 200" 
+          fill="url(#shamahGradient)" stroke="none" stroke-width="8"/>
+    
+    <!-- P com círculo -->
+    <path d="M120 40 L120 200 M120 40 L160 40 C180 40, 200 60, 200 80 C200 100, 180 120, 160 120 L120 120" 
+          fill="none" stroke="url(#shamahGradient)" stroke-width="12" stroke-linecap="round"/>
+    
+    <!-- Círculo do P -->
+    <circle cx="300" cy="120" r="40" fill="none" stroke="url(#shamahGradient)" stroke-width="12"/>
+    <ellipse cx="300" cy="120" rx="15" ry="25" fill="white"/>
+    
+    <!-- Elementos conectores -->
+    <circle cx="240" cy="80" r="8" fill="url(#shamahGradient)"/>
+    <circle cx="240" cy="120" r="6" fill="url(#shamahGradient)"/>
+    <circle cx="240" cy="160" r="8" fill="url(#shamahGradient)"/>
+    
+    <!-- Linhas de conexão -->
+    <path d="M248 80 L252 120 M248 120 L252 160" stroke="url(#shamahGradient)" stroke-width="3"/>
+  </g>
+</svg>

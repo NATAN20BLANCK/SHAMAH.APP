@@ -1,0 +1,8 @@
+html, body, #root, #__next, .expo-root {
+  background: linear-gradient(135deg, #0D47A1, #512DA8) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  min-height: 100vh !important;
+  height: 100vh !important;
+}

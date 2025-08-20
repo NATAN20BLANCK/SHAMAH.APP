@@ -1,29 +1,63 @@
 {
   "expo": {
-    "name": "Shamah.APP",
-    "slug": "Shamah.APP",
+    "name": "Shamah Publi",
+    "slug": "shamah-publi",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/images/icon.png",
+    "scheme": "shamahpubli",
+    "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Este app precisa acessar a câmera para tirar fotos e vídeos para suas publicações.",
+        "NSPhotoLibraryUsageDescription": "Este app precisa acessar sua galeria de fotos para selecionar imagens e vídeos para suas publicações.",
+        "NSMicrophoneUsageDescription": "Este app precisa acessar o microfone para gravar vídeos com áudio."
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_MEDIA_IMAGES",
+        "READ_MEDIA_VIDEO",
+        "RECORD_AUDIO"
+      ]
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png",
+      "themeColor": "#1e3c72",
+      "backgroundColor": "#1e3c72",
+      "startUrl": "/",
+      "crossOrigin": "anonymous",
+      "description": "Shamah Publi - Plataforma completa de gestão e publicidade",
+      "lang": "pt-BR",
+      "scope": "/",
+      "display": "standalone"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
     }
   }
 }
