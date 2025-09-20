@@ -7,7 +7,7 @@ declare module "expo-router" {
   export * from 'expo-router/build';
 
   // prettier-ignore
-  type StaticRoutes = `/` | `/AfiliadosScreen` | `/AgendadosScreen` | `/BlogScreen` | `/ContasScreen` | `/ContatoScreen` | `/EditorScreen` | `/global-setup` | `/HomeScreen` | `/LanguageSettings` | `/login` | `/NotificationSettings` | `/onboarding` | `/PlanosScreen` | `/polyfills/react-use` | `/PortfolioScreen` | `/replicacao` | `/ServicosScreen` | `/setBodyGradient` | `/splash` | `/tabs/afiliados` | `/tabs/agendados` | `/tabs/blog` | `/tabs/calendario` | `/tabs/contact` | `/tabs/contas` | `/tabs/diagnostico` | `/tabs/explore` | `/tabs/inicio` | `/tabs/perfil` | `/tabs/planos` | `/tabs/replicacao` | `/tabs/team` | `/tabs/videoeditor` | `/VideoEditorScreen` | `/VideoReplicationScreen` | `/_app`;
+  type StaticRoutes = `/` | `/AfiliadosScreen` | `/AgendadosScreen` | `/BlogScreen` | `/ContasScreen` | `/ContatoScreen` | `/EditorScreen` | `/global-setup` | `/HomeScreen` | `/LanguageSettings` | `/login` | `/NotificationSettings` | `/onboarding` | `/PlanosScreen` | `/polyfills/react-use` | `/PortfolioScreen` | `/replicacao` | `/ServicosScreen` | `/setBodyGradient` | `/splash` | `/tabs/afiliados` | `/tabs/agendados` | `/tabs/blog` | `/tabs/calendario` | `/tabs/contact` | `/tabs/contas` | `/tabs/diagnostico` | `/tabs/explore` | `/tabs/` | `/tabs/inicio` | `/tabs/perfil` | `/tabs/planos` | `/tabs/replicacao` | `/tabs/team` | `/tabs/videoeditor` | `/VideoEditorScreen` | `/VideoReplicationScreen` | `/_app`;
   // prettier-ignore
   type DynamicRoutes<T extends string> = never;
   // prettier-ignore

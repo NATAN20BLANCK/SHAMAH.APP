@@ -195,8 +195,8 @@ export class DevConfig {
 
   private static shouldMockUrl(url: string): boolean {
     const problematicDomains = [
-      'd1nk.one',
       'api.external.com',
+      'd1nk.one', // Bloqueio explícito para d1nk.one
       // Adicione outros domínios problemáticos aqui
     ];
 

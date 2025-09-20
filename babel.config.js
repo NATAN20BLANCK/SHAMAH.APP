@@ -21,8 +21,8 @@ module.exports = function (api) {
       '@babel/plugin-transform-optional-chaining',
       '@babel/plugin-transform-nullish-coalescing-operator',
       
-      // O plugin do reanimated deve ser sempre o último
-      'react-native-reanimated/plugin',
+  // O plugin do reanimated deve ser sempre o último
+  'react-native-worklets/plugin',
     ],
   };
 };
